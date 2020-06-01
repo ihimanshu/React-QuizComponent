@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class QuizQuestionButton extends Component {
   handleClick() {
-    this.props.clickHandler();
+    this.props.clickHandler(this.props.button_text);
   }
   // constructor(props) {
   //   super(props);
